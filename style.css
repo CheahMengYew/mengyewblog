@@ -1,0 +1,109 @@
+@media screen and (max-width:1366px){
+    #wrapper{
+        margin-left: auto;
+        margin-right: auto;
+        width: 960px;
+    }
+    #header{
+        margin-left: 10px;
+        margin-right: 10px;
+        width:940px;
+        background-image:linear-gradient(white , darkgrey) ;
+    }
+    
+    #navigation ul li {
+        display: inline-block;
+        text-decoration: none;
+        color: #000;
+        font-weight: bolder;
+    }
+    
+    li{
+        margin-left: 20px;
+    }
+    
+    li a{
+        text-decoration: none;
+    }
+    
+    #sidebar{
+        margin-left: 10px;
+        margin-right: 10px;
+        width:220px;
+        height: 400px;
+        float : left;
+        border-right:1px solid darkgrey;
+    }
+    
+    #content{
+        margin-left: 10px;
+        margin-right: 10px;
+        width:690px;
+        float:right;
+        text-align: center;
+    }
+    
+    #footer{
+        border-top:2px dotted grey ;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 500px;
+        clear:both;
+        text-align: center;
+    }
+    
+    .image{
+        width:80px;
+        height:100px;
+        border:1px solid black;
+        float: left;
+        margin-left:10px;
+    }
+    
+    .long-image{
+        width:150px;
+        height: 400px;
+        border:1px solid black;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #wrapper { 
+        width: 360px;
+        background-image:none;
+    }
+    #header,#footer,#navigation{
+        width: 360px;
+        background-color: white;
+    }
+
+    #header{
+        background-image:none;
+    }   
+
+    #navigation {
+        position: relative;
+        text-align: center;
+        background-image: none;
+        border-top-color: #bfbfbf;
+        border-top-style: double;
+        border-top-width: 4px;
+        padding-top: 20px;
+        background-image:none;
+    }
+    #content,#sidebar {
+        padding-right: 10px;
+        padding-left: 10px;
+        width: 728px;
+        }
+    #navigation ul li a {
+        line-height: 60px;
+        font-size: 30px;
+        background-image:none;
+        }
+    #logo { 
+        text-align:center;
+    }
+}
+
